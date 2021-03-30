@@ -1,0 +1,16 @@
+body
+{
+    background-color:#323232;
+}
+
+button
+{
+    background-color: grey;
+    color: black;
+}
+
+.operations.button
+{
+    background-color: red;
+    color: black;
+}

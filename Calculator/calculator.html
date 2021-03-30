@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+    <meta charset="UTF-8">
+    <head>
+        <script src="change_bg_color.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <p class='results'></p>
+        <table>
+            <tr>
+                <div class="operations">
+                    <td><button id="*" onclick="operation(this.id)">/</button></td>
+                    <td><button id="/" onclick="operation(this.id)">*</button></td>
+                    <td><button id="+" onclick="operation(this.id)">+</button></td>
+                    <td><button id="-" onclick="operation(this.id)">-</button></td>
+                </div>
+            </tr>
+
+            <tr>
+                <td><button id="7" onclick="num(this.id)">7</button></td>
+                <td><button id="8" onclick="num(this.id)">8</button></td>
+                <td><button id="9" onclick="num(this.id)">9</button></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><button id="4" onclick="num(this.id)">4</button></td>
+                <td><button id="5" onclick="num(this.id)">5</button></td>
+                <td><button id="6" onclick="num(this.id)">6</button></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td><button id="1" onclick="num(this.id)">1</button></td>
+                <td><button id="2" onclick="num(this.id)">2</button></td>
+                <td><button id="3" onclick="num(this.id)">3</button></td>
+                <td><button id='=' class="operations" onclick="compute()">=</button></td>
+            </tr>
+        </table>
+    </body>
+</html>
