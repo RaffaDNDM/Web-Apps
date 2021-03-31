@@ -9,8 +9,37 @@ button
     color: black;
 }
 
-.operations.button
+#listOPs
 {
-    background-color: red;
-    color: black;
+    background-color: lightgrey;
+    color: blue;
+    border-color: blue;
+    height: 20px;
+}   
+
+#result
+{
+    background-color: lightgrey;
+    color: blue;
+    border-color: blue;
+    height: 20px;
+}
+
+button.operations
+{
+    background-color: rgb(115, 17, 17);
+    font-style: italic;
+    font-style: bold;
+    color: white;
+}
+
+#compute
+{
+    background-color: darkgreen;
+    box-shadow: violet;
+}
+
+#clear
+{
+    background-color: rgb(8, 8, 98);
 }
